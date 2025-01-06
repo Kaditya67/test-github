@@ -1,0 +1,64 @@
+####### branching ##########
+
+ Creating a Branch--> 
+
+ create a new branch-
+ 1) git branch main
+
+create and switch to new branch together-
+ 2) git checkout -b Master
+
+3) switch to branch-
+ --git switch main--
+
+Viewing branch--
+--git branch --
+
+agar ek bar branch me changes kar liye aur us chnages ko dusre brnach me le jana chahte hai toh ye command use kar sakte hai, sabse pehle us branch pe switch karenge --
+
+--git checkout main--
+ aur uske bad purane wale branch ko current branch me add karenge
+
+ --git merge develop--
+
+ deleting the branch
+
+ --git branch -d develop--
+
+
+
+################ merge ##############
+
+merging ek process hai jo changes ko ek branch se dusre branch me apply karta hai
+
+pehle ham us branch me switch karenge 
+--git checkout main-- 
+
+main is at commit C1, and a feature branch is at commit C2 (which is based on C1).
+If no commits were made on main since branching off, Git can simply move the main pointer forward to C2.
+
+--git merge feature-branch--
+
+
+
+
+
+############### checkout ###########
+
+repo me branch switch karne ke liye pehle ye command use karenge
+--git checkout feature-branch--
+
+ek hi bar me new branch create aur usi pe switch kar sakte hai
+--git checkout -b new-feature--
+
+kisi specific commit ko check karne ke liye
+--git checkout abcd123--
+
+
+
+kisi file ko restore karne ke liye ye command use kar sakte hai
+git checkout abcd123 -- app.js
+
+
+another branch se restore karne ke liye
+git checkout feature-branch -- app.js
