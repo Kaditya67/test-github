@@ -1,2 +1,5 @@
 github (software) - cloud/storage --> project store kar sakte hai yha
 git - manages and tracks all files
+
+add - 
+commit - 
