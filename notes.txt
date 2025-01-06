@@ -3,3 +3,5 @@ git - manages and tracks all files
 
 add - 
 commit - 
+
+branch - switch,checkout, merge
